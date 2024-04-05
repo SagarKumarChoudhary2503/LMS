@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <b><h1>Welcome To Library</h1><br/><h2 class="color">Opens at:09:00</h2><br/><h2 class="color">Closes at 15:00</h2></b>
+    <div class="login-container">
+        <img src="images/book_image1.jpg"  alt="library_book_image"/>
+        <h2>Login</h2>
+        <form id="login-form">
+            <div>
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" placeholder="Enter your Email">
+            </div>
+            <div>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" placeholder="Enter your Password" required>
+            </div><br/>
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div class="options">
+            <a href="#" id="forgot-password">Forgot password?</a>
+            <p>Don't have an account? <a href="signup.html">Signup</a></p>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
+

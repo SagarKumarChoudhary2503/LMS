@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="books.css">
+</head>
+
+<body>
+    <i><h1 id="heading">Book Library</h1></i>
+    <body onload="readAll()"></body>
+    <div class="container">
+       <div class="form_container">
+       <form class="create_form">
+        <select class="Cname" placeholder="Enter Book Category">
+            <option value="">Select Category</option>
+            <option value="Science Fiction">Fiction</option>
+            <option value="Non-Fiction">Non-Fiction</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Young Adult">Young Adult</option>
+        </select>
+                <input type="text" class="Tname" placeholder="Enter Book name"/>
+                <input type="text" class="Aname" placeholder="Enter Author name"/>
+                <button type="button" onclick="add()">Create</button>
+        </form><br/>
+    
+      <form class="update_form">
+         <input type="text" hidden class="id" />   
+         <input type="text" class="catg"/> 
+         <input type="text" class="Tiname"/>
+         <input type="text" class="Auname"/>
+         <button type="button" onclick="update()">Update</button>
+      </form>
+            <div class="add_div">
+            <button onclick="create()">Add</button>
+            </div>
+        <table>
+           <thead>
+              <th>CATEGORY</th>
+              <th>TITLE</th>
+              <th>AUTHOR</th>
+              <th>ACTION</th>
+           </thead>
+           <tbody class="data_table"></tbody>
+        </table>
+        </div>
+    </div>
+    <script src="books.js"></script>
+</body>
+</html>

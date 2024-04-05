@@ -1,0 +1,112 @@
+body {
+    background-image: url('images/book_image5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+}
+
+#heading {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    margin-top: 20px; /* Adjusted margin */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px; /* Adjusted margin */
+}
+
+.form_container {
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px; /* Increased padding */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+
+form input {
+    margin-bottom: 10px; /* Added margin bottom */
+    padding: 10px;
+    width: 100%; /* Made inputs full width */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    margin-top: 10px; /* Added margin top */
+    padding: 10px;
+    width: 100%; /* Made button full width */
+    background-color: rgb(78, 11, 235);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.add_div {
+    display: flex;
+    justify-content: flex-end; /* Adjusted alignment */
+    width: 100%;
+    padding-right: 10px; /* Added padding */
+}
+
+.add_div button {
+    padding: 15px;
+    width: auto; /* Made button width auto */
+    background-color: rgb(72, 15, 228);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 16px; /* Decreased font size */
+    font-weight: bold;
+}
+
+.add_div button:hover {
+    background-color: rgb(204, 120, 24);
+}
+
+table {
+    color: #000000;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px; /* Decreased font size */
+    border-collapse: collapse; /* Collapsed borders */
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px; /* Added padding */
+}
+
+table button {
+    padding: 5px 10px; /* Adjusted padding */
+    border-radius: 5px;
+}
+
+table .edit {
+    background-color: blue;
+    color: white;
+}
+
+table .delete {
+    background-color: red;
+    color: white;
+}
+
+.Cname {
+    width: 100%; /* Made select full width */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px; /* Added margin bottom */
+}
